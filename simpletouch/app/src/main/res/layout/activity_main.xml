@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="11">
+
+
+    <com.example.simpletouch.Singletouchview
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:id="@+id/singleTouchView"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_black"
+            android:onClick="onColorButtonClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:text="BLACK"
+            android:textColor="@android:color/background_light" />
+        <Button
+            android:id="@+id/btn_red"
+            android:onClick="onColorButtonClick"
+            android:text="RED"
+            android:background="@android:color/holo_red_light"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:onClick="onColorButtonClick"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/btn_green"
+            android:text="GREEN"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:onClick="onColorButtonClick"
+            android:id="@+id/btn_clear"
+            android:text="CLEAR"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+       "
+
+    </LinearLayout>
+</LinearLayout>
