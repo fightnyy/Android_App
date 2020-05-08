@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "403541510967",
+    "firebase_url": "https://my-sns-b0937.firebaseio.com",
+    "project_id": "my-sns-b0937",
+    "storage_bucket": "my-sns-b0937.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403541510967:android:2626cdd09faba08b13a8b2",
+        "android_client_info": {
+          "package_name": "org.techtown.my_sns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403541510967-8qfgs7jbvih4b9kjfd25d9hrh35mua19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgnUlTu_fq90JjYnPLVncTYAgofInlDmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403541510967-8qfgs7jbvih4b9kjfd25d9hrh35mua19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
