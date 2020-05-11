@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
             MystartActivity(LoginActivity.class);
 
         } else {
-            MystartActivity(CameraActivity.class);
+            MystartActivity(MemberinitActivity.class);
+//            MystartActivity(CameraActivity.class);
 
             FirebaseFirestore db = FirebaseFirestore.getInstance();
             DocumentReference docRef = db.collection("users").document(user.getUid());

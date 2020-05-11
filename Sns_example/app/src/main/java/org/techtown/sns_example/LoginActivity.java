@@ -1,11 +1,9 @@
 package org.techtown.sns_example;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -59,6 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 startToast("success to login");
+                                Log.e("login","클릭됨로그인");
                                 MystartActivity(MainActivity.class);
 
                             } else {

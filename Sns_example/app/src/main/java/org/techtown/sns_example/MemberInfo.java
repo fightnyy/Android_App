@@ -1,19 +1,19 @@
 package org.techtown.sns_example;
 
-import android.widget.EditText;
-
 public class MemberInfo {
     String name;
     String phonenumber;
     String birthday;
     String address;
+    String photourl;
 
-    public MemberInfo(String name,String phonenumber, String birthday,String address)
+    public MemberInfo(String name,String phonenumber, String birthday,String address,String photourl)
     {
         this.name=name;
         this.phonenumber=phonenumber;
         this.birthday=birthday;
         this.address=address;
+        this.photourl=photourl;
     }
 
     public String getName() {
@@ -46,5 +46,13 @@ public class MemberInfo {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getPhotourl() {
+        return photourl;
+    }
+
+    public void setPhotourl(String photourl) {
+        this.photourl = photourl;
     }
 }
